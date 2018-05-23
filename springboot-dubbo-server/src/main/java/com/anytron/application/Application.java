@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication(scanBasePackages = { 
-		"com.anytron",
+		"com.anytron.api.provider",
 		"com.anytron.service",
 		"com.anytron.datasource" })
 @MapperScan(basePackages = "com.anytron.mapper")

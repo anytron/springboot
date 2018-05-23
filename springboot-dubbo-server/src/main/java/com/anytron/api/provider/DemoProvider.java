@@ -11,7 +11,7 @@ import com.anytron.model.vo.Demo;
 import com.anytron.model.vo.PageParam;
 import com.anytron.service.IAppService;
 
-@Service(version="1.0.0")
+@Service(version="1.0.0",timeout=50000)
 public class DemoProvider implements ISpringBootDemoProvider {
 	
 	@Autowired

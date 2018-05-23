@@ -9,7 +9,7 @@ import com.anytron.model.vo.PageParam;
 import com.anytron.service.ICourierService;
 import com.github.pagehelper.Page;
 
-@Service(version="1.0.0")
+@Service(version="1.0.0",timeout=50000)
 public class CourierProvider implements ICourierProvider {
 	
 	@Autowired

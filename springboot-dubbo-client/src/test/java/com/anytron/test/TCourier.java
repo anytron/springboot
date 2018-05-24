@@ -1,9 +1,9 @@
-package com.anytron.model.po;
+package com.anytron.test;
 
 import java.io.Serializable;
 import java.util.Date;
 
-public class TCourier implements Serializable {
+public class TCourier implements Serializable  {
 	
 	private static final long serialVersionUID = 3663739557833757158L;
 	

@@ -6,6 +6,7 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.anytron.mapper.AppMapper;
 import com.anytron.model.po.TApp;
@@ -15,6 +16,7 @@ import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 
 @Service
+@Transactional
 public class AppServiceImpl implements IAppService {
 
 	@Autowired
